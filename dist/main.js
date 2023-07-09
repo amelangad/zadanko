@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector(".nav__menu"),t=document.querySelector(".list");e.addEventListener("click",(()=>{t.classList.toggle("active")}))})();

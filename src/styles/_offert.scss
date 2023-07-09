@@ -1,0 +1,47 @@
+.offert {
+    width: 100vw;
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+   padding: 5em 0;
+
+    &__box {
+        width: 300px;
+        height:  auto;
+        background-color: rgb(219, 214, 214);
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        border-radius: 10px;
+        
+
+        .box__heading {
+            font-size: 36px;
+            line-height: 43.2px;
+            color: black;
+            text-align: center;
+        }
+
+        .box__desc {
+            font-size: 1rem;
+            color: black;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            line-height: 19.2px;
+            font-weight: 400;
+            overflow: hidden;
+        }
+        .box__button {
+            color: white;
+            background-color: black;
+            margin: 1rem;
+        }
+    }
+}
